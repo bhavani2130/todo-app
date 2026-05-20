@@ -41,10 +41,10 @@ This app helps users manage daily tasks with reminders and full CRUD operations.
 ------
 
 ✨ Extra Highlights
--> Real-time reminder system using setInterval
--> React hooks: useState, useEffect, useRef
--> LocalStorage used for reminder tracking
--> Clean and minimal UI with toast notifications
+- Real-time reminder system using setInterval
+- React hooks: useState, useEffect, useRef
+- LocalStorage used for reminder tracking
+- Clean and minimal UI with toast notifications
 
 ## ▶ How to Run Project
 
