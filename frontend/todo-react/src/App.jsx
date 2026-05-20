@@ -15,7 +15,7 @@ function App() {
       <Route path='/home' element={<HomePage/>}/>
       <Route path='/about' element={<AboutPage/>}/>
       <Route path='/task' element={<TaskPage/>}/>
-      <Route path='*' element={<h1>heyyy bhavvv</h1>}/>
+      <Route path='*' element={<h1>todo list app<br/>click home</h1>}/>
     </Routes>
     </>
   )

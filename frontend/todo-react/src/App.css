@@ -3,20 +3,50 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, #ad39d0, #da38ac);
+    background: linear-gradient(to right, #df2fa1, #c06fde);
     text-align: center;
     flex-direction: column;
     color: whitesmoke;
 }
 
 .about{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #da38ac;
-    text-align: center;
-    color: aqua;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(to right,#df2fa1,#c06fde);
+    color:white;
+    padding:40px;
+}
+
+.about h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.about p{
+    font-size:22px;
+    max-width:700px;
+    line-height:1.8;
+}
+
+.about ul{
+    margin-top:20px;
+    padding:0;
+    list-style:none;
+}
+
+.about li{
+    font-size:22px;
+    margin:12px 0;
+    background:
+    rgba(255,255,255,0.15);
+    padding:12px 24px;
+    border-radius:12px;
+    backdrop-filter:
+    blur(10px);
 }
 
 input{
@@ -46,7 +76,7 @@ button:hover{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:#b2268d;
+    background:linear-gradient(to right,#df2fa1,#c06fde);
     text-align: center;
     flex-direction: column;
     gap: 20px;
@@ -60,28 +90,29 @@ button:hover{
     background:darkred;
 }
 
-ul{
+.Navibar{
     display:flex;
     justify-content:center;
     align-items:center;
     gap:40px;
     list-style:none;
-    background:rgb(47, 221, 102);
+    background: #bfd3dc;;
     padding:20px;
-    margin:0;
-    box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-ul li a{
+.Navibar li a{
     text-decoration:none;
     font-size:24px;
-    color:#333;
     font-weight:bold;
     transition:0.3s;
-}
-
-ul li a:hover{
-    color:#007bff;
+    color: black;
+    text-decoration:none;
 }
 
 .ou{
@@ -89,4 +120,36 @@ ul li a:hover{
     gap:20px;
     align-items: center;
     flex-direction: row;
+}
+
+.taskbox{
+    background:
+    rgba(255,255,255,0.15);
+
+    backdrop-filter:
+    blur(10px);
+
+    color:white;
+
+    border:
+    1px solid
+    rgba(255,255,255,0.2);
+
+    padding:20px;
+
+    border-radius:16px;
+}
+
+
+.taskbox:hover{
+transform:translateY(-3px);
+transition:0.3s;
+}
+
+.home,
+.about,
+.task{
+    padding-top:100px;
+
+    box-sizing:border-box;
 }
